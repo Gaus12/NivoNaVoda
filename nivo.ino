@@ -1,6 +1,6 @@
 #include <ESP8266WiFi.h>
-const char* ssid     = "Nikovi computers";
-const char* password = "Toshibakmm12)";
+const char* ssid     = "SSID";
+const char* password = "PW";
 
 WiFiServer server(80);
 
@@ -29,7 +29,7 @@ void setup() {
   Serial.println();
   Serial.println();
   Serial.print("Connecting to ");
-  Serial.println("Nikovi computers");
+  Serial.println("SSID");
 
   WiFi.begin("SSID", "PW");
 
